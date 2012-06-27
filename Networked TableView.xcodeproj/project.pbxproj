@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F7FEE1FD159B8490002CE5D8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7FEE1FC159B8490002CE5D8 /* UIKit.framework */; };
+		F7FEE1FF159B8490002CE5D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7FEE1FE159B8490002CE5D8 /* Foundation.framework */; };
+		F7FEE201159B8490002CE5D8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7FEE200159B8490002CE5D8 /* CoreGraphics.framework */; };
+		F7FEE207159B8490002CE5D8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F7FEE205159B8490002CE5D8 /* InfoPlist.strings */; };
+		F7FEE209159B8490002CE5D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7FEE208159B8490002CE5D8 /* main.m */; };
+		F7FEE20D159B8490002CE5D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7FEE20C159B8490002CE5D8 /* AppDelegate.m */; };
+		F7FEE210159B8490002CE5D8 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7FEE20E159B8490002CE5D8 /* MainStoryboard.storyboard */; };
+		F7FEE213159B8490002CE5D8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7FEE212159B8490002CE5D8 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F7FEE1F8159B8490002CE5D8 /* Networked TableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Networked TableView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7FEE1FC159B8490002CE5D8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F7FEE1FE159B8490002CE5D8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F7FEE200159B8490002CE5D8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F7FEE204159B8490002CE5D8 /* Networked TableView-Info.plist */ = {isa = PBXFileReference; path = "Networked TableView-Info.plist"; sourceTree = "<group>"; };
+		F7FEE206159B8490002CE5D8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F7FEE208159B8490002CE5D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F7FEE20A159B8490002CE5D8 /* Networked TableView-Prefix.pch */ = {isa = PBXFileReference; path = "Networked TableView-Prefix.pch"; sourceTree = "<group>"; };
+		F7FEE20B159B8490002CE5D8 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		F7FEE20C159B8490002CE5D8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F7FEE20F159B8490002CE5D8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		F7FEE211159B8490002CE5D8 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		F7FEE212159B8490002CE5D8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7FEE1F5159B8490002CE5D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7FEE1FD159B8490002CE5D8 /* UIKit.framework in Frameworks */,
+				F7FEE1FF159B8490002CE5D8 /* Foundation.framework in Frameworks */,
+				F7FEE201159B8490002CE5D8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F7FEE1ED159B8490002CE5D8 = {
+			isa = PBXGroup;
+			children = (
+				F7FEE202159B8490002CE5D8 /* Networked TableView */,
+				F7FEE1FB159B8490002CE5D8 /* Frameworks */,
+				F7FEE1F9159B8490002CE5D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F7FEE1F9159B8490002CE5D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7FEE1F8159B8490002CE5D8 /* Networked TableView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7FEE1FB159B8490002CE5D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F7FEE1FC159B8490002CE5D8 /* UIKit.framework */,
+				F7FEE1FE159B8490002CE5D8 /* Foundation.framework */,
+				F7FEE200159B8490002CE5D8 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F7FEE202159B8490002CE5D8 /* Networked TableView */ = {
+			isa = PBXGroup;
+			children = (
+				F7FEE20B159B8490002CE5D8 /* AppDelegate.h */,
+				F7FEE20C159B8490002CE5D8 /* AppDelegate.m */,
+				F7FEE20E159B8490002CE5D8 /* MainStoryboard.storyboard */,
+				F7FEE211159B8490002CE5D8 /* ViewController.h */,
+				F7FEE212159B8490002CE5D8 /* ViewController.m */,
+				F7FEE203159B8490002CE5D8 /* Supporting Files */,
+			);
+			path = "Networked TableView";
+			sourceTree = "<group>";
+		};
+		F7FEE203159B8490002CE5D8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F7FEE204159B8490002CE5D8 /* Networked TableView-Info.plist */,
+				F7FEE205159B8490002CE5D8 /* InfoPlist.strings */,
+				F7FEE208159B8490002CE5D8 /* main.m */,
+				F7FEE20A159B8490002CE5D8 /* Networked TableView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7FEE1F7159B8490002CE5D8 /* Networked TableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7FEE216159B8490002CE5D8 /* Build configuration list for PBXNativeTarget "Networked TableView" */;
+			buildPhases = (
+				F7FEE1F4159B8490002CE5D8 /* Sources */,
+				F7FEE1F5159B8490002CE5D8 /* Frameworks */,
+				F7FEE1F6159B8490002CE5D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Networked TableView";
+			productName = "Networked TableView";
+			productReference = F7FEE1F8159B8490002CE5D8 /* Networked TableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7FEE1EF159B8490002CE5D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Clemson University";
+			};
+			buildConfigurationList = F7FEE1F2159B8490002CE5D8 /* Build configuration list for PBXProject "Networked TableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F7FEE1ED159B8490002CE5D8;
+			productRefGroup = F7FEE1F9159B8490002CE5D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7FEE1F7159B8490002CE5D8 /* Networked TableView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7FEE1F6159B8490002CE5D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7FEE207159B8490002CE5D8 /* InfoPlist.strings in Resources */,
+				F7FEE210159B8490002CE5D8 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7FEE1F4159B8490002CE5D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7FEE209159B8490002CE5D8 /* main.m in Sources */,
+				F7FEE20D159B8490002CE5D8 /* AppDelegate.m in Sources */,
+				F7FEE213159B8490002CE5D8 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F7FEE205159B8490002CE5D8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7FEE206159B8490002CE5D8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F7FEE20E159B8490002CE5D8 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7FEE20F159B8490002CE5D8 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F7FEE214159B8490002CE5D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F7FEE215159B8490002CE5D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7FEE217159B8490002CE5D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Networked TableView/Networked TableView-Prefix.pch";
+				INFOPLIST_FILE = "Networked TableView/Networked TableView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F7FEE218159B8490002CE5D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Networked TableView/Networked TableView-Prefix.pch";
+				INFOPLIST_FILE = "Networked TableView/Networked TableView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7FEE1F2159B8490002CE5D8 /* Build configuration list for PBXProject "Networked TableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7FEE214159B8490002CE5D8 /* Debug */,
+				F7FEE215159B8490002CE5D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7FEE216159B8490002CE5D8 /* Build configuration list for PBXNativeTarget "Networked TableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7FEE217159B8490002CE5D8 /* Debug */,
+				F7FEE218159B8490002CE5D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F7FEE1EF159B8490002CE5D8 /* Project object */;
+}
