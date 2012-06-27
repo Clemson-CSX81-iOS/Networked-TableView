@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C4D0DE68BB314D4887B7EB25 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A7D4E61AFA941569E484324 /* libPods.a */; };
+		F76144E0159B918900F39816 /* avatar-placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = F76144DF159B918900F39816 /* avatar-placeholder.png */; };
 		F7FEE1FD159B8490002CE5D8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7FEE1FC159B8490002CE5D8 /* UIKit.framework */; };
 		F7FEE1FF159B8490002CE5D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7FEE1FE159B8490002CE5D8 /* Foundation.framework */; };
 		F7FEE201159B8490002CE5D8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7FEE200159B8490002CE5D8 /* CoreGraphics.framework */; };
@@ -14,23 +16,29 @@
 		F7FEE209159B8490002CE5D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7FEE208159B8490002CE5D8 /* main.m */; };
 		F7FEE20D159B8490002CE5D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7FEE20C159B8490002CE5D8 /* AppDelegate.m */; };
 		F7FEE210159B8490002CE5D8 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7FEE20E159B8490002CE5D8 /* MainStoryboard.storyboard */; };
-		F7FEE213159B8490002CE5D8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7FEE212159B8490002CE5D8 /* ViewController.m */; };
+		F7FEE222159B8561002CE5D8 /* MyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7FEE221159B8561002CE5D8 /* MyTableViewController.m */; };
+		F7FEE226159B8604002CE5D8 /* MyTweetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F7FEE225159B8604002CE5D8 /* MyTweetCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2A7D4E61AFA941569E484324 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C65DAAC5360B46D9B9A13E7C /* Pods.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		F76144DF159B918900F39816 /* avatar-placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "avatar-placeholder.png"; sourceTree = "<group>"; };
 		F7FEE1F8159B8490002CE5D8 /* Networked TableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Networked TableView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7FEE1FC159B8490002CE5D8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F7FEE1FE159B8490002CE5D8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F7FEE200159B8490002CE5D8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		F7FEE204159B8490002CE5D8 /* Networked TableView-Info.plist */ = {isa = PBXFileReference; path = "Networked TableView-Info.plist"; sourceTree = "<group>"; };
+		F7FEE204159B8490002CE5D8 /* Networked TableView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Networked TableView-Info.plist"; sourceTree = "<group>"; };
 		F7FEE206159B8490002CE5D8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F7FEE208159B8490002CE5D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F7FEE20A159B8490002CE5D8 /* Networked TableView-Prefix.pch */ = {isa = PBXFileReference; path = "Networked TableView-Prefix.pch"; sourceTree = "<group>"; };
-		F7FEE20B159B8490002CE5D8 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		F7FEE20A159B8490002CE5D8 /* Networked TableView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Networked TableView-Prefix.pch"; sourceTree = "<group>"; };
+		F7FEE20B159B8490002CE5D8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F7FEE20C159B8490002CE5D8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		F7FEE20F159B8490002CE5D8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		F7FEE211159B8490002CE5D8 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
-		F7FEE212159B8490002CE5D8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F7FEE220159B8561002CE5D8 /* MyTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableViewController.h; sourceTree = "<group>"; };
+		F7FEE221159B8561002CE5D8 /* MyTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewController.m; sourceTree = "<group>"; };
+		F7FEE224159B8604002CE5D8 /* MyTweetCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTweetCell.h; sourceTree = "<group>"; };
+		F7FEE225159B8604002CE5D8 /* MyTweetCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTweetCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +49,7 @@
 				F7FEE1FD159B8490002CE5D8 /* UIKit.framework in Frameworks */,
 				F7FEE1FF159B8490002CE5D8 /* Foundation.framework in Frameworks */,
 				F7FEE201159B8490002CE5D8 /* CoreGraphics.framework in Frameworks */,
+				C4D0DE68BB314D4887B7EB25 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,6 +62,7 @@
 				F7FEE202159B8490002CE5D8 /* Networked TableView */,
 				F7FEE1FB159B8490002CE5D8 /* Frameworks */,
 				F7FEE1F9159B8490002CE5D8 /* Products */,
+				C65DAAC5360B46D9B9A13E7C /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -70,6 +80,7 @@
 				F7FEE1FC159B8490002CE5D8 /* UIKit.framework */,
 				F7FEE1FE159B8490002CE5D8 /* Foundation.framework */,
 				F7FEE200159B8490002CE5D8 /* CoreGraphics.framework */,
+				2A7D4E61AFA941569E484324 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -77,12 +88,11 @@
 		F7FEE202159B8490002CE5D8 /* Networked TableView */ = {
 			isa = PBXGroup;
 			children = (
-				F7FEE20B159B8490002CE5D8 /* AppDelegate.h */,
-				F7FEE20C159B8490002CE5D8 /* AppDelegate.m */,
-				F7FEE20E159B8490002CE5D8 /* MainStoryboard.storyboard */,
-				F7FEE211159B8490002CE5D8 /* ViewController.h */,
-				F7FEE212159B8490002CE5D8 /* ViewController.m */,
+				F7FEE229159B8623002CE5D8 /* Application */,
+				F7FEE228159B8616002CE5D8 /* Controllers */,
+				F7FEE227159B860C002CE5D8 /* Views */,
 				F7FEE203159B8490002CE5D8 /* Supporting Files */,
+				F76144DF159B918900F39816 /* avatar-placeholder.png */,
 			);
 			path = "Networked TableView";
 			sourceTree = "<group>";
@@ -98,6 +108,34 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		F7FEE227159B860C002CE5D8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F7FEE20E159B8490002CE5D8 /* MainStoryboard.storyboard */,
+				F7FEE224159B8604002CE5D8 /* MyTweetCell.h */,
+				F7FEE225159B8604002CE5D8 /* MyTweetCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		F7FEE228159B8616002CE5D8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F7FEE220159B8561002CE5D8 /* MyTableViewController.h */,
+				F7FEE221159B8561002CE5D8 /* MyTableViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		F7FEE229159B8623002CE5D8 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				F7FEE20B159B8490002CE5D8 /* AppDelegate.h */,
+				F7FEE20C159B8490002CE5D8 /* AppDelegate.m */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -108,6 +146,7 @@
 				F7FEE1F4159B8490002CE5D8 /* Sources */,
 				F7FEE1F5159B8490002CE5D8 /* Frameworks */,
 				F7FEE1F6159B8490002CE5D8 /* Resources */,
+				9A313E6D028F44BDBCCA6352 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -151,10 +190,28 @@
 			files = (
 				F7FEE207159B8490002CE5D8 /* InfoPlist.strings in Resources */,
 				F7FEE210159B8490002CE5D8 /* MainStoryboard.storyboard in Resources */,
+				F76144E0159B918900F39816 /* avatar-placeholder.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9A313E6D028F44BDBCCA6352 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F7FEE1F4159B8490002CE5D8 /* Sources */ = {
@@ -163,7 +220,8 @@
 			files = (
 				F7FEE209159B8490002CE5D8 /* main.m in Sources */,
 				F7FEE20D159B8490002CE5D8 /* AppDelegate.m in Sources */,
-				F7FEE213159B8490002CE5D8 /* ViewController.m in Sources */,
+				F7FEE222159B8561002CE5D8 /* MyTableViewController.m in Sources */,
+				F7FEE226159B8604002CE5D8 /* MyTweetCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,22 +294,30 @@
 		};
 		F7FEE217159B8490002CE5D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C65DAAC5360B46D9B9A13E7C /* Pods.xcconfig */;
 			buildSettings = {
+				DSTROOT = /tmp/xcodeproj.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Networked TableView/Networked TableView-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "Networked TableView/Networked TableView-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
 		F7FEE218159B8490002CE5D8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C65DAAC5360B46D9B9A13E7C /* Pods.xcconfig */;
 			buildSettings = {
+				DSTROOT = /tmp/xcodeproj.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Networked TableView/Networked TableView-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "Networked TableView/Networked TableView-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -275,6 +341,7 @@
 				F7FEE218159B8490002CE5D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

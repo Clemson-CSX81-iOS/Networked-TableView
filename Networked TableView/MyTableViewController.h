@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MyTableViewController.h
 //  Networked TableView
 //
 //  Created by Douglas Edmonson on 6/27/12.
@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface MyTableViewController : UITableViewController
+
+- (IBAction)refresh:(id)sender;
 
 @end
