@@ -14,6 +14,7 @@
 
 @property (nonatomic, strong) NSArray *results;
 @property (nonatomic, weak) UIActivityIndicatorView *activityView;
+@property (nonatomic, copy) NSString *searchString;
 
 @end
 
@@ -26,6 +27,8 @@
 {
     [super viewDidLoad];
     
+    self.searchString = @"https://search.twitter.com/search.json?q=iphone&lang=en";
+    
     UIView *titleView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 30, 30)];
     UIActivityIndicatorView *activView = [[UIActivityIndicatorView alloc] 
                                           initWithFrame:CGRectMake(5, 5, 20, 20)];
@@ -36,7 +39,7 @@
     
     self.activityView.hidden = YES;
 
-    NSURL *url = [NSURL URLWithString:@"https://search.twitter.com/search.json?q=ipad"];
+    NSURL *url = [NSURL URLWithString:self.searchString];
     NSURLRequest *request = [NSURLRequest requestWithURL:url];
     
     AFJSONRequestOperation *operation = [AFJSONRequestOperation 
@@ -103,7 +106,7 @@
     self.results = [NSArray array];
     [self.tableView reloadData];
     
-    NSURL *url = [NSURL URLWithString:@"https://search.twitter.com/search.json?q=ipad"];
+    NSURL *url = [NSURL URLWithString:self.searchString];
     NSURLRequest *request = [NSURLRequest requestWithURL:url];
     
     AFJSONRequestOperation *operation = [AFJSONRequestOperation 

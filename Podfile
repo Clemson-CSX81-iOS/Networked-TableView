@@ -1,3 +1,3 @@
 platform :ios
 
-dependency 'AFNetworking'
+pod 'AFNetworking'
